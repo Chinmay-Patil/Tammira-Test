@@ -1,0 +1,21 @@
+{
+    "[json]": {
+        
+        "jshint.options": {"esversion": 6},
+        
+        "editor.quickSuggestions": {
+            "strings": true
+        },
+        "editor.suggest.insertMode": "replace"
+    },
+    "debug.allowBreakpointsEverywhere": true,
+    "files.autoGuessEncoding": true,
+    "files.exclude": {
+        "**/.vscode": true,
+        "compile_commands.json": true,
+        "*.hrccproj": true,
+        "*.sln": true,
+        "*.suo": true
+    },
+    "typescript.tsdk": "node_modules\\typescript\\lib"
+}
